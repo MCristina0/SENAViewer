@@ -2,7 +2,7 @@ package edu.misena.senaviewer.model;
 
 import java.util.List;
 
-public class book {
+ public class book {
 
     private String id;
     private String title;
