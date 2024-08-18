@@ -11,7 +11,7 @@ public class chapter {
 
 
     public chapter(String title, int duration, int year) {
-        this.title = title;
+
         this.duration = duration;
         this.year = year;
         this.viewed = false; // Por defecto, el capítulo no ha sido visualizado

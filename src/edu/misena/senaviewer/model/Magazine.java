@@ -11,7 +11,7 @@ public class Magazine {// Atributos
 
 
     public Magazine( String id, String title, String edititionDate, String editorial) {
-        this.id = id;
+
         this.title = title;
         this.edititionDate = edititionDate;
         this.editorial = editorial;

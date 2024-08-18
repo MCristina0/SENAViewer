@@ -12,7 +12,7 @@ public class Movie {
 
 
     public Movie(String id ,String title, String genre, String creator, int duration, int year) {
-        this.id = id;
+  
         this.title = title;
         this.genre = genre;
         this.creator = creator;
