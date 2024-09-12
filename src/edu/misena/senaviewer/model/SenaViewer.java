@@ -8,7 +8,7 @@ import java.util.Scanner;
         private static final Scanner scanner = new Scanner(System.in);
         private static final List<Movie> movies = new ArrayList<>();
         private static final List<Serie> series = new ArrayList<>();
-        private static final List<book> books = new ArrayList<>();
+        private static final List<Book> books = new ArrayList<>();
         private static final List<Magazine> magazines = new ArrayList<>();
 
         public static void main(String[] args) {
@@ -85,8 +85,8 @@ import java.util.Scanner;
 
         private static void mostrarLibros() {
             System.out.println("Mostrando lista de libros...");
-            for (book book : books) {
-                System.out.println("Título: " + book.getTitle() + ", Editorial: " + book.getEditorial() + ", Fecha de edición: " + book.getEdititionDate());
+            for (Book book : books) {
+                System.out.println("Título: " + book.getTitle() + ", Editorial: " + book.getEditorial() + ", Fecha de edición: " + book.getEditionDate());
             }
 
         }
@@ -94,7 +94,7 @@ import java.util.Scanner;
         private static void mostrarRevistas() {
             System.out.println("Mostrando lista de revistas...");
             for (Magazine magazine : magazines) {
-                System.out.println("Título: " + magazine.getTitle() + ", Editorial: " + magazine.getEditorial() + ", Fecha de edición: " + magazine.getEdititionDate());
+                System.out.println("Título: " + magazine.getTitle() + ", Editorial: " + magazine.getEditorial() + ", Fecha de edición: " + magazine.getEditionDate());
             }
 
         }

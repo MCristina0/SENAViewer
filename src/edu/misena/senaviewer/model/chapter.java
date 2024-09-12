@@ -1,30 +1,25 @@
 package edu.misena.senaviewer.model;
-public class chapter {
 
-    private String id;
-    private String title;
-    private int duration;
-    private int year;
-    private boolean viewed;
-    private int timeViewed;
-    private int sessionNumber;
+public class Chapter {
+    public int id;
+    public String title;
+    public int duration;
+    public int year;
+    public boolean viewed;
+    public int timeViewed;
+    public int sessionNumber;
 
-
-    public chapter(String title, int duration, int year) {
-
+    public Chapter(String title, int duration, int year) {
+        this.title = title;
         this.duration = duration;
         this.year = year;
-        this.viewed = false; // Por defecto, el capítulo no ha sido visualizado
-        this.timeViewed = 0; // Por defecto, el tiempo visualizado es 0
-        this.sessionNumber = 0; // Por defecto, el número de sesión es 0
     }
 
-
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
