@@ -22,7 +22,7 @@ public class Magazine extends Publication {
     public String toString() {
         return "Magazine{" +
                 super.toString() +
-                ", id=" + id +
+                ", Id=" + id +
                 '}';
     }
 }
